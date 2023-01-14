@@ -8,12 +8,25 @@
 </head>
 
 <body class="rtl">
-<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+<div class="container">
+    <div class="row pt-2">
+        <?php
+        if (function_exists('the_custom_logo')) {
+            the_custom_logo();
+        }
+        ?>
+    </div>
+</div>
+<div class="row top-menu">
     <div class="container">
-        <a href="../" class="navbar-brand">قاصدک سفید</a>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-
-        </div>
+        <nav class="navbar-nav">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'header-menu',
+                'items_wrap' => '<ul class="nav navbar-nav navbar-right headerMenu">%3$s</ul>'
+            ));
+            ?>
+        </nav>
     </div>
 </div>
 

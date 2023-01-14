@@ -1,5 +1,9 @@
 <?php get_header() ?>
-
+<div class="row">
+    <div class="col-lg-12">
+        <img src="./wp-content/themes/Ghasedak_WP_Theme/assets/images/header.jpg" width="100%" alt="">
+    </div>
+</div>
     <div class="container">
         <div class="bs-docs-section">
             <div class="row">
