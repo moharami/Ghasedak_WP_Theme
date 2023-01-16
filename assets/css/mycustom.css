@@ -125,8 +125,13 @@
 
 .menu ul li a:hover:not(.active) {
     background-color: #111;
+
 }
 
 .menu ul li a.active {
     float: right;
+}
+.post img{
+    border-radius: 20px !important;
+    border: 1px solid #ccc;
 }
