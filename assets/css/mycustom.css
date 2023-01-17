@@ -99,10 +99,11 @@
     padding: 0;
 }
 
-.top-menu{
+.top-menu {
     margin-top: 20px;
     background-color: #323131;
 }
+
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -131,7 +132,31 @@
 .menu ul li a.active {
     float: right;
 }
-.post img{
+
+.post img {
     border-radius: 20px !important;
     border: 1px solid #ccc;
+    width: 96%
+}
+
+.navbar-nav {
+    color: white;
+    display: block;
+}
+
+
+#menu-main {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    display: block;
+}
+#menu-main li{
+    float: right;
+    padding-right: 1.5rem;
+    color: white;
+}
+#menu-main li a{
+    color: #fff;
 }

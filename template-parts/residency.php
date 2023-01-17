@@ -3,7 +3,7 @@
     <div class="container ">
         <div class="row">
             <h3>
-                سفرهای داخلی
+              اقامت
                 <hr>
             </h3>
             <br>
@@ -12,7 +12,7 @@
             <?php
             $the_query = new WP_Query(
                 array(
-                    'category_name' => 'iran',
+                    'category_name' => 'residency',
                     'post_type' => 'post',
                     'posts_per_page' => 3
                 )

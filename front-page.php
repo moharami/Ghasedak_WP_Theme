@@ -8,5 +8,7 @@
 <?php //get_template_part('template-parts/service-intro'); ?>
 <?php get_template_part('template-parts/airlines'); ?>
 <?php get_template_part('template-parts/tour'); ?>
+<?php get_template_part('template-parts/tour-foreign'); ?>
+<?php get_template_part('template-parts/residency'); ?>
 
 <?php get_footer(); ?>

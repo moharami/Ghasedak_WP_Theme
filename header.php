@@ -19,15 +19,16 @@
 </div>
 <div class="row top-menu">
     <div class="container">
-        <nav class="navbar-nav">
+        <div id="navbar" class="navbar-collapse">
             <?php
             wp_nav_menu(array(
                 'theme_location' => 'header-menu',
-                'items_wrap' => '<ul class="nav navbar-nav navbar-right headerMenu">%3$s</ul>'
+                'items_wrap' => '<ul id="menu-main" class="navbar-nav me-auto">%3$s</ul>',
             ));
             ?>
-        </nav>
+        </div>
     </div>
 </div>
+
 
 

@@ -1,9 +1,9 @@
 <!--    post    -->
-<div class="row background-normal pt-3">
+<div class="row background-normal  pt-3">
     <div class="container ">
         <div class="row">
             <h3>
-                سفرهای داخلی
+               سفر های خارجی
                 <hr>
             </h3>
             <br>
@@ -12,7 +12,7 @@
             <?php
             $the_query = new WP_Query(
                 array(
-                    'category_name' => 'iran',
+                    'category_name' => 'foreign',
                     'post_type' => 'post',
                     'posts_per_page' => 3
                 )
